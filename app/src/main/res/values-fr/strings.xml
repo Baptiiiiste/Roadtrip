@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RoadTrip</string>
+    <string name="map">Carte</string>
+    <string name="travels">Voyages</string>
+    <string name="roadtrip_title">Mes RoadTrips:</string>
+    <string name="add_roadtrip_button">+</string>
+    <string name="placesList">Vos lieux à visiter:</string>
+    <string name="btnDeleteRoadTrip">Supprimer le voyage</string>
+    <string name="confirm">Valider</string>
+    <string name="cancel">Annuler</string>
+    <string name="emptyTextError">Le texte ne peux pas être vide</string>
+    <string name="newRoadtripDialog">Entrez le nom de votre voyage</string>
+    <string name="roadTripDeleteConfirmation">Le voyage a bien été supprimé</string>
+    <string name="roadTripDeleteError">Une erreur est survenue lors de la suppresion du voyage</string>
+    <string name="noRoadTripFound">Aucun voyage n\'a été trouvé, utilisez la carte</string>
+    <string name="roadtripAdded">Roadtrip ajouté</string>
+    <string name="changesSaved">Changements sauvegardés</string>
+</resources>

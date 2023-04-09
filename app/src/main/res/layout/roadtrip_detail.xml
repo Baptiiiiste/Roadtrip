@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.RoadtripDetail"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/roadTripDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TMP/ Roadtrip Name"
+        android:background="@color/main_turquoise_500"
+        android:textColor="@color/main_turquoise_50"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/roadTripDetailDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TMP/ Date"
+        android:background="@color/main_turquoise_500"
+        android:textColor="@color/main_turquoise_50"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"/>
+
+    <FrameLayout
+        android:id="@+id/roadTripDetailMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_weight="1"
+        android:background="@drawable/corner_radius"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placesList"
+        android:textColor="@color/main_turquoise_200"
+        android:padding="5dp"
+        android:textSize="17sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPlacesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btnDeleteRoadTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDeleteRoadTrip"
+        android:backgroundTint="@color/main_turquoise_200"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

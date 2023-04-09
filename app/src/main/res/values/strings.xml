@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RoadTrip</string>
+    <string name="map">Map</string>
+    <string name="travels">Travels</string>
+    <string name="roadtrip_title">My RoadTrips:</string>
+    <string name="add_roadtrip_button">+</string>
+    <string name="placesList">Your places to visit:</string>
+    <string name="btnDeleteRoadTrip">Delete travel</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="emptyTextError">The text cannot be empty</string>
+    <string name="newRoadtripDialog">Enter the name of your travel</string>
+    <string name="roadTripDeleteConfirmation">The road trip has been successfully deleted</string>
+    <string name="roadTripDeleteError">An error occurred while deleting the road trip.</string>
+    <string name="noRoadTripFound">No trip was found, add one with the map.</string>
+    <string name="roadtripAdded">Roadtrip added</string>
+    <string name="changesSaved">Changes saved</string>
+</resources>

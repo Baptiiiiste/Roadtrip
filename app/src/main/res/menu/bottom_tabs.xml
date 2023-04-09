@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map"
+        android:enabled="true"
+        android:title="@string/map"
+        android:icon="@drawable/map"/>
+    <item
+        android:id="@+id/roadTrip"
+        android:enabled="true"
+        android:title="@string/travels"
+        android:icon="@drawable/road_trip" />
+</menu>

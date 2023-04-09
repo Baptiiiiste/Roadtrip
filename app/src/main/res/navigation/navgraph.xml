@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/map">
+    <fragment
+        android:id="@+id/roadTrip"
+        android:name="uca.baptistearthur.geocaching.ui.fragment.RoadTripFragment"
+        android:label="fragment_roadtrip"
+        tools:layout="@layout/fragment_roadtrip" >
+        <action
+            android:id="@+id/action_roadTripFragment_to_roadtripDetail"
+            app:destination="@id/roadtripDetail"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/roadtripDetail"
+        android:name="uca.baptistearthur.geocaching.ui.fragment.RoadtripDetail"
+        android:label="roadtrip_detail"
+        tools:layout="@layout/roadtrip_detail" />
+    <fragment
+        android:id="@+id/map"
+        android:name="uca.baptistearthur.geocaching.ui.fragment.MyLocationMap"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment android:id="@+id/placeholder" >
+        <action
+            android:id="@+id/action_placeholder_to_map2"
+            app:destination="@id/roadTripDetailMapView" />
+    </fragment>
+    <fragment
+        android:id="@+id/roadTripDetailMapView"
+        android:name="uca.baptistearthur.geocaching.ui.fragment.EditRoadtripMap"
+        android:label="Map" />
+</navigation>
